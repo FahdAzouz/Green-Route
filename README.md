@@ -1,79 +1,70 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
-# Project Title
+# GreenRoute: AI for Eco-friendly Urban Commuting
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+GreenRoute is an AI-driven application designed to optimize urban commuting for sustainability. It calculates the most eco-friendly routes for daily commutes, reducing carbon footprints and promoting greener transportation methods.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+Urban commuting contributes significantly to carbon emissions and environmental pollution. Most commuters are unaware of the environmental impact of their travel choices. GreenRoute addresses this issue by offering an AI-powered solution that:
+* Encourages the use of public transportation, biking, and walking
+* Reduces reliance on single-occupancy vehicles
+* Promotes awareness of eco-friendly commuting options
+Our motivation is to create a more sustainable urban environment by making it easier for individuals to make greener travel choices. This project combines our passion for technology and environmental conservation.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Users input their start and end destinations along with the desired time of arrival. GreenRoute then analyzes various factors, including traffic data, public transport schedules, and weather conditions, to suggest the most environmentally friendly route options. It can be used by:
+- Daily commuters looking for the greenest travel options
+- City planners aiming to promote sustainable commuting practices
+- Environmental enthusiasts seeking to minimize their carbon footprint
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+Here's how GreenRoute might look in action:
+![Green Commuting](path_to_your_image_here)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
-
+To use GreenRoute, simply:
+```python
+def find_green_route(start, end, arrival_time):
+    # Algorithm to compute the eco-friendliest route
+    return best_route
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+We rely on several data sources for GreenRoute, including:
+- **Real-time traffic data** from municipal traffic departments
+- **Public transportation schedules** from local transit authorities
+- **Weather forecasts** to adjust route suggestions in real-time
+
+For AI techniques, we anticipate using:
+- **Machine learning** to predict traffic patterns and identify the most efficient routes.
+- **Optimization algorithms** to evaluate and suggest the most eco-friendly commuting options.
+
+Data privacy and ethical AI usage are paramount, ensuring user data is handled responsibly and transparently.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+While GreenRoute aims to make a significant impact, there are areas it does not address:
+- **Infrastructure improvements** such as the expansion of bike lanes or the enhancement of public transit systems.
+- **Behavioral changes** in individuals and communities towards more sustainable commuting habits.
+- **Socioeconomic disparities** that may limit access to the suggested eco-friendly commuting options.
+
+We recognize these limitations and believe in working collaboratively with communities, governments, and other stakeholders to address them.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Future enhancements for GreenRoute could include:
+- **Integration of electric vehicle (EV) charging stations** to support and encourage the use of EVs.
+- **Personalized carbon footprint tracking** to inform users of their environmental impact.
+- **Collaborations with urban planners** to influence the design of more sustainable cities.
 
+Growth for GreenRoute means not just expanding the technology but also building a community of users committed to reducing their environmental impact through smarter commuting choices.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+- **Municipal traffic departments** and **local transit authorities** for providing essential data.
+- **The global AI for Good community** for inspiring the application of AI in environmental sustainability.
+- **All open-source software contributors** whose tools and libraries have facilitated the development of GreenRoute.
+
+GreenRoute is a step towards a more sustainable future, driven by community, technology, and a commitment to the planet.
+
