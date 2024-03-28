@@ -30,7 +30,7 @@ def find_green_route(start, end, arrival_time):
     # Algorithm to compute the eco-friendliest route
     return best_route
 ## Data sources and AI methods
-
+```
 We rely on several data sources for GreenRoute, including:
 - **Real-time traffic data** from municipal traffic departments
 - **Public transportation schedules** from local transit authorities
